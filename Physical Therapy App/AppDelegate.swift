@@ -7,30 +7,92 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseCore
+import FirebaseStorage
+import FirebaseDatabase
+import Purchases
+import FBSDKCoreKit
+import Player
+
+var ref: DatabaseReference?
+var uid = String()
+var didpurchase = Bool()
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    var purchases: Purchases?
 
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        FirebaseApp.configure()
+        
+        ref = Database.database().reference()
+
+        uid = UIDevice.current.identifierForVendor?.uuidString ?? "x"
+        
+        Purchases.debugLogsEnabled = true
+                 Purchases.configure(withAPIKey: "YuMbZXigVRCOrvLStdviFvUqYzgKMTFN", appUserID: nil)
+        
+        AppEvents.activateApp()
+
+        let mainStoryboardIpad : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+           let tabBarBuyer : UITabBarController = mainStoryboardIpad.instantiateViewController(withIdentifier: "HomeTab") as! UITabBarController
+
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+          self.window?.rootViewController = tabBarBuyer
+
+          self.window?.makeKeyAndVisible()
+          
+
+        queryforinfo()
+
+        
         return true
     }
+    
+    func queryforinfo() {
+                        
+                ref?.child("Users").child(uid).observeSingleEvent(of: .value, with: { (snapshot) in
+                    
+                    let value = snapshot.value as? NSDictionary
+                    
+             
+                    
+                    if let purchased = value?["Purchased"] as? String {
+                        
+                        if purchased == "True" {
+                            
+                            didpurchase = true
+                            
+                        } else {
+                                         
+    //                        didpurchase = true
+
+                            didpurchase = false
+                            
+                        }
+                        
+                    } else {
+                        
+    //                    didpurchase = true
+
+                        
+                        didpurchase = false
+                    }
+             
+                })
+                
+            }
 
     // MARK: UISceneSession Lifecycle
 
-    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        // Called when a new scene session is being created.
-        // Use this method to select a configuration to create the new scene with.
-        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
-    }
 
-    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-        // Called when the user discards a scene session.
-        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-    }
 
 
 }

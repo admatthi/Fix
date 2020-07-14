@@ -3,18 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		065A06F996755166BEA93944 /* Pods_Physical_Therapy_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1809A387DE7F7E68E8FD9BA /* Pods_Physical_Therapy_App.framework */; };
+		08CC90B8C15515D42062C746 /* Pods_Physical_Therapy_App_Physical_Therapy_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A89A7EDBD77631B05B1BC28D /* Pods_Physical_Therapy_App_Physical_Therapy_AppUITests.framework */; };
+		4F5D1F099859E000A7EB7E13 /* Pods_Physical_Therapy_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16761EE02CA8882B380248D4 /* Pods_Physical_Therapy_AppTests.framework */; };
+		9D5B636E24BCF83600302E94 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D5B636D24BCF83600302E94 /* GoogleService-Info.plist */; };
+		9D5B636F24BCF83600302E94 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D5B636D24BCF83600302E94 /* GoogleService-Info.plist */; };
+		9D5B637024BCF83600302E94 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D5B636D24BCF83600302E94 /* GoogleService-Info.plist */; };
+		9D5B637224BD031500302E94 /* PaywallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B637124BD031500302E94 /* PaywallViewController.swift */; };
+		9D5B637324BD031500302E94 /* PaywallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B637124BD031500302E94 /* PaywallViewController.swift */; };
+		9D5B637424BD031500302E94 /* PaywallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B637124BD031500302E94 /* PaywallViewController.swift */; };
 		9DDBB4E124BCF69B00C21A47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBB4E024BCF69B00C21A47 /* AppDelegate.swift */; };
-		9DDBB4E324BCF69B00C21A47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBB4E224BCF69B00C21A47 /* SceneDelegate.swift */; };
 		9DDBB4E524BCF69B00C21A47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBB4E424BCF69B00C21A47 /* ViewController.swift */; };
 		9DDBB4E824BCF69B00C21A47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DDBB4E624BCF69B00C21A47 /* Main.storyboard */; };
 		9DDBB4EA24BCF6A100C21A47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DDBB4E924BCF6A100C21A47 /* Assets.xcassets */; };
 		9DDBB4ED24BCF6A100C21A47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DDBB4EB24BCF6A100C21A47 /* LaunchScreen.storyboard */; };
 		9DDBB4F824BCF6A100C21A47 /* Physical_Therapy_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBB4F724BCF6A100C21A47 /* Physical_Therapy_AppTests.swift */; };
 		9DDBB50324BCF6A100C21A47 /* Physical_Therapy_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBB50224BCF6A100C21A47 /* Physical_Therapy_AppUITests.swift */; };
+		9DEE8ECC24BD313000AFC411 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE8ECB24BD313000AFC411 /* PlayerViewController.swift */; };
+		9DEE8ECE24BD33BE00AFC411 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE8ECD24BD33BE00AFC411 /* HomeViewController.swift */; };
+		9DEE8ED024BD33D500AFC411 /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE8ECF24BD33D500AFC411 /* OverviewViewController.swift */; };
+		9DEE8ED224BD33E100AFC411 /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE8ED124BD33E100AFC411 /* DailyViewController.swift */; };
+		9DEE8ED424BD340B00AFC411 /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE8ED324BD340A00AFC411 /* TitleCollectionViewCell.swift */; };
+		9DEE8ED624BD341600AFC411 /* GenreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE8ED524BD341600AFC411 /* GenreCollectionViewCell.swift */; };
+		9DEE8ED824BD341E00AFC411 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE8ED724BD341E00AFC411 /* Book.swift */; };
+		9DEE8EDA24BD344E00AFC411 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE8ED924BD344E00AFC411 /* HomeTableViewCell.swift */; };
+		9DEE8EDC24BD387000AFC411 /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE8EDB24BD387000AFC411 /* HomeTabViewController.swift */; };
+		9DEE8EDE24BD3E3A00AFC411 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE8EDD24BD3E3A00AFC411 /* Genre.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +53,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9DDBB4DD24BCF69B00C21A47 /* Physical Therapy App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Physical Therapy App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16761EE02CA8882B380248D4 /* Pods_Physical_Therapy_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Physical_Therapy_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		367999136B4ADE868897F97E /* Pods-Physical Therapy App-Physical Therapy AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Physical Therapy App-Physical Therapy AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Physical Therapy App-Physical Therapy AppUITests/Pods-Physical Therapy App-Physical Therapy AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3C0458B775075AC60A405A79 /* Pods-Physical Therapy App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Physical Therapy App.release.xcconfig"; path = "Target Support Files/Pods-Physical Therapy App/Pods-Physical Therapy App.release.xcconfig"; sourceTree = "<group>"; };
+		6AEA252A8A3D748EB2687CA2 /* Pods-Physical Therapy App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Physical Therapy App.debug.xcconfig"; path = "Target Support Files/Pods-Physical Therapy App/Pods-Physical Therapy App.debug.xcconfig"; sourceTree = "<group>"; };
+		73CAE976DAF827211294C3A5 /* Pods-Physical Therapy AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Physical Therapy AppTests.release.xcconfig"; path = "Target Support Files/Pods-Physical Therapy AppTests/Pods-Physical Therapy AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		764B375B5FBD74B8680B78B0 /* Pods-Physical Therapy App-Physical Therapy AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Physical Therapy App-Physical Therapy AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Physical Therapy App-Physical Therapy AppUITests/Pods-Physical Therapy App-Physical Therapy AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D5B636D24BCF83600302E94 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9D5B637124BD031500302E94 /* PaywallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallViewController.swift; sourceTree = "<group>"; };
+		9DDBB4DD24BCF69B00C21A47 /* Physical Therapy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Physical Therapy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DDBB4E024BCF69B00C21A47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DDBB4E224BCF69B00C21A47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9DDBB4E424BCF69B00C21A47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9DDBB4E724BCF69B00C21A47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DDBB4E924BCF6A100C21A47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +74,19 @@
 		9DDBB4FE24BCF6A100C21A47 /* Physical Therapy AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Physical Therapy AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DDBB50224BCF6A100C21A47 /* Physical_Therapy_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Physical_Therapy_AppUITests.swift; sourceTree = "<group>"; };
 		9DDBB50424BCF6A100C21A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DEE8ECB24BD313000AFC411 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		9DEE8ECD24BD33BE00AFC411 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9DEE8ECF24BD33D500AFC411 /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
+		9DEE8ED124BD33E100AFC411 /* DailyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
+		9DEE8ED324BD340A00AFC411 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		9DEE8ED524BD341600AFC411 /* GenreCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreCollectionViewCell.swift; sourceTree = "<group>"; };
+		9DEE8ED724BD341E00AFC411 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		9DEE8ED924BD344E00AFC411 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		9DEE8EDB24BD387000AFC411 /* HomeTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
+		9DEE8EDD24BD3E3A00AFC411 /* Genre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		A89A7EDBD77631B05B1BC28D /* Pods_Physical_Therapy_App_Physical_Therapy_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Physical_Therapy_App_Physical_Therapy_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA5C425C39EB1ACE379C13B /* Pods-Physical Therapy AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Physical Therapy AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Physical Therapy AppTests/Pods-Physical Therapy AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1809A387DE7F7E68E8FD9BA /* Pods_Physical_Therapy_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Physical_Therapy_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				065A06F996755166BEA93944 /* Pods_Physical_Therapy_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F5D1F099859E000A7EB7E13 /* Pods_Physical_Therapy_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +110,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08CC90B8C15515D42062C746 /* Pods_Physical_Therapy_App_Physical_Therapy_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		146CDCF254D180119DF20408 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AEA252A8A3D748EB2687CA2 /* Pods-Physical Therapy App.debug.xcconfig */,
+				3C0458B775075AC60A405A79 /* Pods-Physical Therapy App.release.xcconfig */,
+				764B375B5FBD74B8680B78B0 /* Pods-Physical Therapy App-Physical Therapy AppUITests.debug.xcconfig */,
+				367999136B4ADE868897F97E /* Pods-Physical Therapy App-Physical Therapy AppUITests.release.xcconfig */,
+				DDA5C425C39EB1ACE379C13B /* Pods-Physical Therapy AppTests.debug.xcconfig */,
+				73CAE976DAF827211294C3A5 /* Pods-Physical Therapy AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9DDBB4D424BCF69B00C21A47 = {
 			isa = PBXGroup;
 			children = (
@@ -83,13 +137,15 @@
 				9DDBB4F624BCF6A100C21A47 /* Physical Therapy AppTests */,
 				9DDBB50124BCF6A100C21A47 /* Physical Therapy AppUITests */,
 				9DDBB4DE24BCF69B00C21A47 /* Products */,
+				146CDCF254D180119DF20408 /* Pods */,
+				C4F60BD0269F2E9183E6B273 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		9DDBB4DE24BCF69B00C21A47 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9DDBB4DD24BCF69B00C21A47 /* Physical Therapy App.app */,
+				9DDBB4DD24BCF69B00C21A47 /* Physical Therapy.app */,
 				9DDBB4F324BCF6A100C21A47 /* Physical Therapy AppTests.xctest */,
 				9DDBB4FE24BCF6A100C21A47 /* Physical Therapy AppUITests.xctest */,
 			);
@@ -100,11 +156,22 @@
 			isa = PBXGroup;
 			children = (
 				9DDBB4E024BCF69B00C21A47 /* AppDelegate.swift */,
-				9DDBB4E224BCF69B00C21A47 /* SceneDelegate.swift */,
-				9DDBB4E424BCF69B00C21A47 /* ViewController.swift */,
+				9DEE8EDB24BD387000AFC411 /* HomeTabViewController.swift */,
+				9DEE8ECD24BD33BE00AFC411 /* HomeViewController.swift */,
+				9DEE8ECF24BD33D500AFC411 /* OverviewViewController.swift */,
+				9DEE8ED124BD33E100AFC411 /* DailyViewController.swift */,
+				9DEE8ECB24BD313000AFC411 /* PlayerViewController.swift */,
 				9DDBB4E624BCF69B00C21A47 /* Main.storyboard */,
+				9DDBB4E424BCF69B00C21A47 /* ViewController.swift */,
 				9DDBB4E924BCF6A100C21A47 /* Assets.xcassets */,
+				9D5B637124BD031500302E94 /* PaywallViewController.swift */,
+				9DEE8ED324BD340A00AFC411 /* TitleCollectionViewCell.swift */,
+				9DEE8ED524BD341600AFC411 /* GenreCollectionViewCell.swift */,
+				9DEE8EDD24BD3E3A00AFC411 /* Genre.swift */,
+				9DEE8ED724BD341E00AFC411 /* Book.swift */,
+				9DEE8ED924BD344E00AFC411 /* HomeTableViewCell.swift */,
 				9DDBB4EB24BCF6A100C21A47 /* LaunchScreen.storyboard */,
+				9D5B636D24BCF83600302E94 /* GoogleService-Info.plist */,
 				9DDBB4EE24BCF6A100C21A47 /* Info.plist */,
 			);
 			path = "Physical Therapy App";
@@ -128,6 +195,16 @@
 			path = "Physical Therapy AppUITests";
 			sourceTree = "<group>";
 		};
+		C4F60BD0269F2E9183E6B273 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1809A387DE7F7E68E8FD9BA /* Pods_Physical_Therapy_App.framework */,
+				A89A7EDBD77631B05B1BC28D /* Pods_Physical_Therapy_App_Physical_Therapy_AppUITests.framework */,
+				16761EE02CA8882B380248D4 /* Pods_Physical_Therapy_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DDBB50724BCF6A100C21A47 /* Build configuration list for PBXNativeTarget "Physical Therapy App" */;
 			buildPhases = (
+				41357385372FFC8454C81923 /* [CP] Check Pods Manifest.lock */,
 				9DDBB4D924BCF69B00C21A47 /* Sources */,
 				9DDBB4DA24BCF69B00C21A47 /* Frameworks */,
 				9DDBB4DB24BCF69B00C21A47 /* Resources */,
+				F793006B00D7AE737A26E6CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,13 +224,14 @@
 			);
 			name = "Physical Therapy App";
 			productName = "Physical Therapy App";
-			productReference = 9DDBB4DD24BCF69B00C21A47 /* Physical Therapy App.app */;
+			productReference = 9DDBB4DD24BCF69B00C21A47 /* Physical Therapy.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9DDBB4F224BCF6A100C21A47 /* Physical Therapy AppTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DDBB50A24BCF6A100C21A47 /* Build configuration list for PBXNativeTarget "Physical Therapy AppTests" */;
 			buildPhases = (
+				9D436C609EF8BC41F764D1FF /* [CP] Check Pods Manifest.lock */,
 				9DDBB4EF24BCF6A100C21A47 /* Sources */,
 				9DDBB4F024BCF6A100C21A47 /* Frameworks */,
 				9DDBB4F124BCF6A100C21A47 /* Resources */,
@@ -170,9 +250,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DDBB50D24BCF6A100C21A47 /* Build configuration list for PBXNativeTarget "Physical Therapy AppUITests" */;
 			buildPhases = (
+				199F3896172496E63322BB8A /* [CP] Check Pods Manifest.lock */,
 				9DDBB4FA24BCF6A100C21A47 /* Sources */,
 				9DDBB4FB24BCF6A100C21A47 /* Frameworks */,
 				9DDBB4FC24BCF6A100C21A47 /* Resources */,
+				C41956331F78A8ECE8D27943 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +317,7 @@
 				9DDBB4ED24BCF6A100C21A47 /* LaunchScreen.storyboard in Resources */,
 				9DDBB4EA24BCF6A100C21A47 /* Assets.xcassets in Resources */,
 				9DDBB4E824BCF69B00C21A47 /* Main.storyboard in Resources */,
+				9D5B636E24BCF83600302E94 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D5B636F24BCF83600302E94 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,19 +333,133 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D5B637024BCF83600302E94 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		199F3896172496E63322BB8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Physical Therapy App-Physical Therapy AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41357385372FFC8454C81923 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Physical Therapy App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D436C609EF8BC41F764D1FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Physical Therapy AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C41956331F78A8ECE8D27943 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Physical Therapy App-Physical Therapy AppUITests/Pods-Physical Therapy App-Physical Therapy AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Physical Therapy App-Physical Therapy AppUITests/Pods-Physical Therapy App-Physical Therapy AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Physical Therapy App-Physical Therapy AppUITests/Pods-Physical Therapy App-Physical Therapy AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F793006B00D7AE737A26E6CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Physical Therapy App/Pods-Physical Therapy App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Physical Therapy App/Pods-Physical Therapy App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Physical Therapy App/Pods-Physical Therapy App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9DDBB4D924BCF69B00C21A47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DEE8ED224BD33E100AFC411 /* DailyViewController.swift in Sources */,
+				9DEE8ED424BD340B00AFC411 /* TitleCollectionViewCell.swift in Sources */,
+				9DEE8ECE24BD33BE00AFC411 /* HomeViewController.swift in Sources */,
 				9DDBB4E524BCF69B00C21A47 /* ViewController.swift in Sources */,
+				9DEE8ECC24BD313000AFC411 /* PlayerViewController.swift in Sources */,
+				9DEE8EDC24BD387000AFC411 /* HomeTabViewController.swift in Sources */,
+				9DEE8EDA24BD344E00AFC411 /* HomeTableViewCell.swift in Sources */,
 				9DDBB4E124BCF69B00C21A47 /* AppDelegate.swift in Sources */,
-				9DDBB4E324BCF69B00C21A47 /* SceneDelegate.swift in Sources */,
+				9D5B637224BD031500302E94 /* PaywallViewController.swift in Sources */,
+				9DEE8EDE24BD3E3A00AFC411 /* Genre.swift in Sources */,
+				9DEE8ED624BD341600AFC411 /* GenreCollectionViewCell.swift in Sources */,
+				9DEE8ED824BD341E00AFC411 /* Book.swift in Sources */,
+				9DEE8ED024BD33D500AFC411 /* OverviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DDBB4F824BCF6A100C21A47 /* Physical_Therapy_AppTests.swift in Sources */,
+				9D5B637324BD031500302E94 /* PaywallViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +477,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DDBB50324BCF6A100C21A47 /* Physical_Therapy_AppUITests.swift in Sources */,
+				9D5B637424BD031500302E94 /* PaywallViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,8 +632,9 @@
 		};
 		9DDBB50824BCF6A100C21A47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AEA252A8A3D748EB2687CA2 /* Pods-Physical Therapy App.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 797Q3HJ5U5;
 				INFOPLIST_FILE = "Physical Therapy App/Info.plist";
@@ -441,8 +642,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aatech.Physical-Therapy-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aatech.SleepStories;
+				PRODUCT_NAME = "Physical Therapy";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,8 +651,9 @@
 		};
 		9DDBB50924BCF6A100C21A47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C0458B775075AC60A405A79 /* Pods-Physical Therapy App.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 797Q3HJ5U5;
 				INFOPLIST_FILE = "Physical Therapy App/Info.plist";
@@ -459,8 +661,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aatech.Physical-Therapy-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aatech.SleepStories;
+				PRODUCT_NAME = "Physical Therapy";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,6 +670,7 @@
 		};
 		9DDBB50B24BCF6A100C21A47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDA5C425C39EB1ACE379C13B /* Pods-Physical Therapy AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +693,7 @@
 		};
 		9DDBB50C24BCF6A100C21A47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73CAE976DAF827211294C3A5 /* Pods-Physical Therapy AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +716,7 @@
 		};
 		9DDBB50E24BCF6A100C21A47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 764B375B5FBD74B8680B78B0 /* Pods-Physical Therapy App-Physical Therapy AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +737,7 @@
 		};
 		9DDBB50F24BCF6A100C21A47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 367999136B4ADE868897F97E /* Pods-Physical Therapy App-Physical Therapy AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
